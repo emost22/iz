@@ -11,7 +11,7 @@ public class OpenDoor : MonoBehaviour
     {
         if (other.gameObject == player)
         {
-            iTween.RotateTo(door, iTween.Hash("rotation", new Vector3(0f, 30f, 0f),
+            iTween.RotateTo(door, iTween.Hash("rotation", new Vector3(0f, -30f, 0f),
                 "easetype", iTween.EaseType.easeOutBack, "time", 2.0f));
             transform.gameObject.SetActive(false);
         }
