@@ -1,8 +1,13 @@
-import './App.css';
 import React from 'react';
+
+// css
+import './App.css';
+
+// component
 import Button from '@material-ui/core/Button';
 
 function App() {
+
   return (
     <div className="App">
       <header>
@@ -13,19 +18,15 @@ function App() {
           <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
         </svg>
       </div>
-      <div className="pjt_pur">
-        <div className="pjt_purpose">
-          <h1>I'z 프로젝트란?</h1>
-          <p>아동학대에 대한 증거를 게임으로 찾으면서 아동학대에 대한 고찰과 예방 교육을 하는 VR 게임 플랫폼</p>
-          <div className="pur_img_up">
-            <img src="/images/purpose_img1.png" className="purpose_img1" alt="purpose" />
-            <img src="/images/purpose_img2.png" className="purpose_img2" alt="purpose" />
-            <img src="/images/purpose_img3.png" className="purpose_img3" alt="purpose" />
-          </div>
-          <div className="pur_img_down">
-            <img src="/images/purpose_img4.png" className="purpose_img4" alt="purpose" />
-            <img src="/images/purpose_img5.png" className="purpose_img5" alt="purpose" />
-            <img src="/images/purpose_img6.png" className="purpose_img6" alt="purpose" />
+      <div className="Iz_download">
+        <div className="how_play">
+          <h1>I'z는 어떻게 할 수 있나요?</h1>
+          <p>I'z는 VR 기계인 오큘러스 퀘스트 2를 통해 이용 가능합니다.</p>
+          <p>1. 아래 버튼을 클릭해 게임을 다운로드 받아주세요!</p>
+          <p>2. Oculus Side Quest를 설치 후 다운받은 APK 파일을 업로드합니다.</p>
+          <p>3. Oculus Quest로 들어가 앱 > 알 수 없는 출처 > iz-unity.apk파일을 실행합니다.</p>
+          <div className="down_button">
+            <Button variant="contained" onClick={() => window.open('http://k5a301.p.ssafy.io:8080/apk_download', '_blank')}>Download</Button>
           </div>
         </div>
       </div>
@@ -70,16 +71,122 @@ function App() {
           <p>아동학대가 발생한 가정에 방문해 아이의 입장에서 아동학대의 증거가 될만한 물건을 찾아 아이를 구출하는 게임입니다.</p>
           <p>제한 시간에 아동학대의 증거가 될만한 물건을 신중하게 추리해서 증거로 채택해야 아이를 구할 수 있습니다.</p>
           <p>생각지 못한 행동도 아동학대가 될 수 있다는 것을 명심하며 아이의 시선으로 게임에 임해주세요!</p>
-          <div className="pur_img_up">
-            <img src="/images/purpose_img1.png" className="purpose_img1" alt="purpose" />
-            <img src="/images/purpose_img2.png" className="purpose_img2" alt="purpose" />
-            <img src="/images/purpose_img3.png" className="purpose_img3" alt="purpose" />
-          </div>
-          <div className="pur_img_down">
-            <img src="/images/purpose_img4.png" className="purpose_img4" alt="purpose" />
-            <img src="/images/purpose_img5.png" className="purpose_img5" alt="purpose" />
-            <img src="/images/purpose_img6.png" className="purpose_img6" alt="purpose" />
-          </div>
+          <ul>
+            <li>
+              <div className="gif_list">
+                <div className="iz_gif">
+                  <div className="top">게임 시작</div>
+                  <div className="bottom">메인 스테이지</div>
+                  <img src="/images/start_main.GIF" className="purpose_img1" alt="purpose" />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="gif_list">
+                <div className="iz_gif">
+                  <div className="top">아이의 집으로 이동</div>
+                  <div className="bottom">시티맵</div>
+                  <img src="/images/citymap.GIF" className="purpose_img2" alt="purpose" />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="gif_list">
+                <div className="iz_gif">
+                  <div className="top">단서 찾기</div>
+                  <div className="bottom">수사관의 시점</div>
+                  <img src="/images/start_clue.gif" className="purpose_img3" alt="purpose" />
+                </div>
+              </div>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <div className="gif_list">
+                <div className="iz_gif">
+                  <div className="top">정서학대</div>
+                  <div className="bottom">수사관의 시점</div>
+                  <img src="/images/squid_clue.gif" className="purpose_img4" alt="purpose" />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="gif_list">
+                <div className="iz_gif">
+                  <div className="top">신체학대</div>
+                  <div className="bottom">수사관의 시점</div>
+                  <img src="/images/bat_clue.gif" className="purpose_img5" alt="purpose" />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="gif_list">
+                <div className="iz_gif">
+                  <div className="top">단서찾기 완료</div>
+                  <div className="bottom">수사관의 시점</div>
+                  <img src="/images/go_childroom.gif" className="purpose_img6" alt="purpose" />
+                </div>
+              </div>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <div className="gif_list">
+                <div className="iz_gif">
+                  <div className="top">아이의 시점으로 전환</div>
+                  <div className="bottom">아이의 시점</div>
+                  <img src="/images/child_eyes.gif" className="purpose_img4" alt="purpose" />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="gif_list">
+                <div className="iz_gif">
+                  <div className="top">정서학대</div>
+                  <div className="bottom">아이의 시점</div>
+                  <img src="/images/note_child.gif" className="purpose_img5" alt="purpose" />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="gif_list">
+                <div className="iz_gif">
+                  <div className="top">신체학대</div>
+                  <div className="bottom">아이의 시점</div>
+                  <img src="/images/bat_child.gif" className="purpose_img6" alt="purpose" />
+                </div>
+              </div>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <div className="gif_list">
+                <div className="iz_gif">
+                  <div className="top">학대정황 파악 완료</div>
+                  <div className="bottom">아이의 시점</div>
+                  <img src="/images/go_police.gif" className="purpose_img4" alt="purpose" />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="gif_list">
+                <div className="iz_gif">
+                  <div className="top">학대에 대한 설명</div>
+                  <div className="bottom">아이의 시점</div>
+                  <img src="/images/police_end.gif" className="purpose_img5" alt="purpose" />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="gif_list">
+                <div className="iz_gif">
+                  <div className="top">국내 아동학대 주요 사건</div>
+                  <div className="bottom">엔딩크레딧</div>
+                  <img src="/images/endingcredit.gif" className="purpose_img6" alt="purpose" />
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
       </div> 
       <div class="custom-shape-divider-top-1635920827">
@@ -89,14 +196,6 @@ function App() {
           <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
         </svg>
       </div> 
-      <div className="Iz_download">
-        <h1>I'z는 어떻게 할 수 있나요?</h1>
-        <p>I'z는 VR 기계인 오큘러스 퀘스트 2를 통해 이용 가능합니다.</p>
-        <p>아래 버튼을 클릭해 게임을 다운로드 받은 후 오큘러스에서 실행해주세요!</p>
-        <div className="down_button">
-          <Button variant="contained">Download</Button>
-        </div>
-      </div>
     </div>
   );
 }

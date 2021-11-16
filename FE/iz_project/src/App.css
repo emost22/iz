@@ -42,16 +42,16 @@ header > img {
   fill: #5683B6;
 }
 
-.App > .pjt_pur {
+.App > .Iz_download {
   position: relative;
-  top: 0;
-  left: 0;
+  top: -1%;
   width: 100%;
-  height: 90vh;
+  left: 0%;
+  height: 65vh;
   background-color: #5683B6;
 }
 
-.App > .pjt_pur > .pjt_purpose {
+.App > .Iz_download > .how_play {
   position: relative;
   top: 0;
   height: 75vh;
@@ -59,25 +59,28 @@ header > img {
   left: 5%;
 }
 
-.App > .pjt_pur > .pjt_purpose h1 {
+.App > .Iz_download > .how_play h1 {
   font-family: "NanumSeA";
   font-size: 4rem;
 }
 
-.App > .pjt_pur > .pjt_purpose p {
-  font-family: 'Gothic A1', sans-serif;
+.App > .Iz_download > .how_play p {
+  font-family: 'Gothic A1', sans-serif;  
   font-size: 1.3rem;
 }
 
-.App > .pjt_pur > .pjt_purpose > .pur_img_up > img {
-  width: 30%;
-  margin-right: 20px;
+.App > .Iz_download > .how_play > .down_button {
+  text-align: center;
+  margin-top: 50px;
 }
 
-.App > .pjt_pur > .pjt_purpose > .pur_img_down > img {
-  width: 30%;
-  margin-top: 15px;
-  margin-right: 20px;
+.App > .Iz_download > .how_play > .down_button Button {
+  height: 85px;
+  width: 200px;
+  font-size: 1.5rem;
+  z-index: 2;
+  background: rgb(11,247,173);
+  background: linear-gradient(90deg, rgba(11,247,173,1) 0%, rgba(21,169,224,1) 100%, rgba(0,255,231,1) 100%); 
 }
 
 .custom-shape-divider-top-1635908304 {
@@ -195,15 +198,14 @@ header > img {
 .App > .whatisIz {
   position: relative;
   width: 100%;
-  height: 120vh;
-  top: -6.2%;
+  height: 200vh;
+  top: -7%;
   background-color: #99B5D4;
 }
 
 .App > .whatisIz > .Iz_report {
   position: relative;
-  top: 10%;
-  /* height: 95vh; */
+  top: 3%;
   width: 95%;
   left: 5%;
 }
@@ -218,20 +220,65 @@ header > img {
   font-size: 1.3rem;
 }
 
-.App > .whatisIz > .Iz_report > .pur_img_up img {
-  width: 30%;
-  margin-right: 20px;
+.App > .whatisIz > .Iz_report > ul {
+  font-size: 0;
+  padding: 0;
+  width: 95%;
 }
 
-.App > .whatisIz > .Iz_report > .pur_img_down img {
-  width: 30%;
-  margin-top: 15px;
+.App > .whatisIz > .Iz_report > ul > li {
+  display: inline-block;
+  vertical-align: top;
+  width: 33.3%;
+}
+
+.App > .whatisIz > .Iz_report > ul > li > .gif_list {
+  display: block;
+  width: auto;
+  margin: 5px;
+}
+
+.App > .whatisIz > .Iz_report > ul > li > .gif_list:hover > .iz_gif > .top {
+  bottom: 52%;
+}
+
+.App > .whatisIz > .Iz_report > ul > li > .gif_list:hover > .iz_gif > .bottom {
+  top: 52%;
+}
+
+.App > .whatisIz > .Iz_report > ul > li > .gif_list > .iz_gif {
+  position: relative;
+  overflow: hidden;
+}
+
+.App > .whatisIz > .Iz_report > ul > li > .gif_list > .iz_gif > .top {
+  position: absolute;
+  bottom: 150%;
+  left: 30px;
+  z-index: 2;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.App > .whatisIz > .Iz_report > ul > li > .gif_list > .iz_gif > .bottom {
+  position: absolute;
+  top: 150%;
+  left: 30px;
+  z-index: 2;
+  color: #fff;
+  font-size: 12px;
+}
+
+.App > .whatisIz > .Iz_report > ul > li > .gif_list > .iz_gif img {
+  width: 100%;
   margin-right: 20px;
+  margin-bottom: 15px;
 }
 
 .custom-shape-divider-top-1635920827 {
   position: relative;
-  top: -6.3%;
+  top: -7%;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -249,33 +296,3 @@ header > img {
   fill: #99B5D4;
 }
 
-.App > .Iz_download {
-  position: relative;
-  top: 0%;
-  height: 50vh;
-  width: 95%;
-  left: 5%;
-}
-
-.App > .Iz_download h1 {
-  font-family: "NanumSeA";
-  font-size: 4rem;
-}
-
-.App > .Iz_download p {
-  font-family: 'Gothic A1', sans-serif;  
-  font-size: 1.3rem;
-}
-
-.App > .Iz_download > .down_button {
-  text-align: center;
-  margin-top: 50px;
-}
-
-.App > .Iz_download > .down_button Button {
-  height: 85px;
-  width: 200px;
-  font-size: 1.5rem;
-  background: rgb(11,247,173);
-  background: linear-gradient(90deg, rgba(11,247,173,1) 0%, rgba(21,169,224,1) 100%, rgba(0,255,231,1) 100%); 
-}
