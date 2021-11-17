@@ -26,7 +26,7 @@ function App() {
           <p>2. Oculus Side Quest를 설치 후 다운받은 APK 파일을 업로드합니다.</p>
           <p>3. Oculus Quest로 들어가 앱 > 알 수 없는 출처 > iz-unity.apk파일을 실행합니다.</p>
           <div className="down_button">
-            <a href="http://k5a301.p.ssafy.io:8080/apk_download">
+            <a href="http://k5a301.p.ssafy.io:8080/apk_download" download>
             <Button variant="contained">Download</Button></a>
           </div>
         </div>
