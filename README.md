@@ -17,7 +17,9 @@
 
 [2. 기술스택](#2-기술스택)
 
+[3. 사이트](#3-사이트)
 
+[4. 게임 화면](#4-게임-화면)
 
 ## 0. 팀 소개
 
@@ -75,7 +77,7 @@
 
 ​	VR기기를 사용하여 아이의 시선으로 아동학대 현장을 바라보며 유저의 몰입도를 높인다.
 
-​	![image-20211022101823195](README.assets/image-20211022101823195.png)
+![child-i](https://user-images.githubusercontent.com/60142959/142143259-738172e5-9167-4b51-876f-129d75dc3365.jpg)
 
 
 
@@ -111,3 +113,41 @@
 - Discord
 - MatterMost
 
+## 3. 사이트
+- 메인 페이지
+![page1](https://user-images.githubusercontent.com/60142959/142142026-98b02892-3266-4932-a1ed-2b1292175d82.png)
+게임 다운로드
+![page2](https://user-images.githubusercontent.com/60142959/142142031-d1d9ca16-7eaa-4969-822a-a1fa995451bc.png)
+주제 선정 이유
+![page3](https://user-images.githubusercontent.com/60142959/142142034-3b4ee71f-410a-4cc5-a9bc-cb8806119f93.png)
+게임 설명
+
+## 4. 게임 화면
+- 시작 화면
+![home](https://user-images.githubusercontent.com/60142959/142142308-6ed8c3e9-7d7d-44b2-8048-1a6847ecb00d.jpg)
+- city Scene
+![city](https://user-images.githubusercontent.com/60142959/142142354-eec0e338-c4b6-41c7-82ce-3bce49a7efd3.jpg)
+아동학대 신고 안내
+![city-move](https://user-images.githubusercontent.com/60142959/142142403-36b35410-904b-41e4-9d22-3fa142573f9f.jpg)
+해당 집으로 이동
+- scenario01 Scene
+![scenario01](https://user-images.githubusercontent.com/60142959/142142470-6149741a-f8cc-41c8-b6cd-bdc94f882df3.jpg)
+해당 집에서 시작
+![find-clue1](https://user-images.githubusercontent.com/60142959/142142484-0b3c5494-141e-43f0-b2b6-8012a7ab700b.jpg)
+단서 찾기
+![all-find-clue1](https://user-images.githubusercontent.com/60142959/142142497-e86b0bb9-1c9a-4614-8ce4-895e52eac3ad.jpg)
+모든 단서를 찾은 상황
+![childroom](https://user-images.githubusercontent.com/60142959/142142503-628ee2de-ca1e-47ab-b165-9a88b73e4ee9.jpg)
+아이의 방
+- scenario02 Scene
+![scenario02](https://user-images.githubusercontent.com/60142959/142142676-ba173b29-19fb-47cb-8439-73602c6db3d0.jpg)
+아이의 방에서 시작
+![find-clue2](https://user-images.githubusercontent.com/60142959/142142847-4c9ea8bf-7619-4ef7-a19c-16846589b588.jpg)
+단서를 아이의 시점에서 해석
+![all-find-clue2](https://user-images.githubusercontent.com/60142959/142142852-37ebd3f5-d365-40af-a631-bcaa8aac7963.jpg)
+모든 단서를 해석한 이후
+![police](https://user-images.githubusercontent.com/60142959/142142868-fb746119-d0a9-45d7-abf1-0f288901bacd.jpg)
+경찰의 도움
+- endingcredit Scene
+![ending](https://user-images.githubusercontent.com/60142959/142142905-3a6fec01-0ab9-4189-8c67-bef05c3ea3cc.jpg)
+아동학대 사례
