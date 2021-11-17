@@ -24,6 +24,11 @@ public class Player : MonoBehaviour
         return instance;
     }
 
+    private void Start()
+    {
+        changeFindClue();
+    }
+
     public void addPicked(string tagName)
     {
         instance.picked.Add(tagName);
@@ -60,11 +65,13 @@ public class Player : MonoBehaviour
 
         this.count++;
         changeFindClue();
-        // 카운트가 MAX이면 missionMessage 변경, targetLocation 활성화
+        // 카운트가 MAX이면 missionMessage 변경, targetLocation 활성화, count, picked 초기화
         if (this.count == MAXCOUNT)
         {
             changeMissionMessage();
             targetLocation.SetActive(true);
+            this.count = 0;
+            instance.picked.Clear();
         }
     }
 
