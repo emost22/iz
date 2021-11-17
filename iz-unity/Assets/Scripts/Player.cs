@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
 {
     private static Player instance = new Player();
     private HashSet<string> picked = new HashSet<string>();
+    private int count = 0;
 
     public const int MAXCOUNT = 6;
     public TextMeshProUGUI missionMessage;
@@ -15,7 +16,6 @@ public class Player : MonoBehaviour
     
     public string[] tags = { "tv", "bat", "dish", "bath", "diary", "chair" };
     public int life = 5;
-    public int count = 0;
 
     private Player() { }
 
@@ -27,6 +27,15 @@ public class Player : MonoBehaviour
     private void Start()
     {
         changeFindClue();
+    }
+    public void countInit()
+    {
+        instance.count = 0;
+    }
+
+    public void pickedInit()
+    {
+        instance.picked.Clear();
     }
 
     public void addPicked(string tagName)
@@ -46,7 +55,7 @@ public class Player : MonoBehaviour
 
     void changeFindClue()
     {
-        this.findClue.text = "찾은 단서: " + this.count + " / " + MAXCOUNT;
+        this.findClue.text = "찾은 단서: " + instance.count + " / " + MAXCOUNT;
     }
 
     void fakeClue(string tagName)
@@ -63,15 +72,13 @@ public class Player : MonoBehaviour
         GameObject gameObjectByTag = GameObject.FindGameObjectWithTag(tagName);
         //gameObjectByTag.transform.Find("")
 
-        this.count++;
+        instance.count++;
         changeFindClue();
         // 카운트가 MAX이면 missionMessage 변경, targetLocation 활성화, count, picked 초기화
-        if (this.count == MAXCOUNT)
+        if (instance.count == MAXCOUNT)
         {
             changeMissionMessage();
             targetLocation.SetActive(true);
-            this.count = 0;
-            instance.picked.Clear();
         }
     }
 
