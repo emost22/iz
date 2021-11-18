@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneMove : MonoBehaviour
 {
+    private Player playerScript;
     public GameObject player;
 
     private void OnTriggerEnter(Collider other)
@@ -27,6 +28,9 @@ public class SceneMove : MonoBehaviour
 
     public void MoveToScenario02()
     {
+        playerScript = Player.getInstance();
+        playerScript.countInit();
+        playerScript.pickedInit();
         SceneManager.LoadScene("scenario02");
     }
 
