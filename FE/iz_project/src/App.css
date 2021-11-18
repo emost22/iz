@@ -63,6 +63,10 @@ header > img {
   left: 5%;
 }
 
+.MuiButton-root {
+  text-transform: initial !important;
+}
+
 .App > .Iz_download > .how_play h1 {
   font-family: 'NanumSeA';
   font-size: 4rem;

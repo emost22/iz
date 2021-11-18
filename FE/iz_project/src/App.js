@@ -26,7 +26,9 @@ function App() {
           <p>2. Oculus Side Quest를 설치 후 다운받은 APK 파일을 업로드합니다.</p>
           <p>3. Oculus Quest로 들어가 앱 > 알 수 없는 출처 > iz-unity.apk파일을 실행합니다.</p>
           <div className="down_button">
-            <Button variant="contained" onClick={() => window.open('https://izapkbucket.s3.ap-northeast-2.amazonaws.com/iz.apk?response-content-disposition=attachment&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0yIkgwRgIhAMi%2FNDrNa7bxjPiBP7JEYApPPzN5cEin5U4LzoAq3X1JAiEAq8BmHKPY9J8ANVf6UVxrwC3beoV1RmrNmMreMvO9MaIq%2FwIIm%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw0ODQzNjk1ODY0OTYiDCtDAC1AiUQJqYNcVirTAscZolHPwbBm%2B0igGKfdO6Tn2NCH%2ByZ5txX3yEKcFJEITjptPHkfLSiocCd0w5IoQ%2F5Ud5LgNDt8AOe%2BAfo%2F4T0ulVQN11pzLzpbfvNNiifJEDytvhWjNGul7OM7qaxgGqUqzTmWladpZDbKXlCfrUb1mLGakX2qiTouvm0saYfiL6teoGfeVGlL9xsA%2BakJaQUAY96VQppYWFvR%2BO5rVxXZ8RAqYVWTfsBh2VrvcyhCz6%2Fvv85%2FZdpZqSc2c%2Fj3SRjSHyHjAYAos7pgYosKRncbabDUaxuoVe7dsYDUDpSckEJc8Pb%2B3JXh8z1DN9ohWN%2BCrjt1skq%2BgazE2nxRPFauhq2mhnv4A1quKDBwKbNZsUJy%2B49Ju8EnmoSiEJIZK3LtuBwViK0Q9Xr3Ykjj%2FbsuhNNjFT2Wb%2F26N97WiTGoCpnKoC5sqrIEwvq0MeJUfgENSzCWv9GMBjqyAh2IJgj2IDh49WwE0qUVZ2XsaIhru03wT5Ggodud1eXeNb5fzsZtVUFPpAZXugjJ%2BE4Kv2WIrEYTMimoGLkqLzoZ4QcjktcTJkuTuhYCzx%2BZ%2BnLAQ5P1kNUxxXV8JBY25bnL1T%2B5o7fGXqiy75vKCK1JmJL6O%2B7NVO%2FeYpa95lPWBMp4TIwXRhFMYvdcyiExbyruREdud2j0PvVQXt9Q2BYuaWoXcN7CXVc%2F4UTkuvBjyZeYM24yfAVx3%2FMemvUGa0naArmvFcZjAgYAUlWalofy%2F82hStHOpT3D0zAq%2FPrYqtiF5709pNREDKGK7hj2pEXJc%2BCtpq69SjFqTXcfnBHYGKkcG8RY%2BNBYwrwY9dYjzDoyMCKj2ZixhQ0LGdIAZTKt7oWJNj1k6CLEclNKHG%2B98g%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20211117T015155Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAXBRVNLFABDCLNLJP%2F20211117%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Signature=e44dab540b3122d53389c82582760689c38946872de8b2c0f21d117c5fe2704d', '_blank')}>Download</Button>
+            <a href="/files/iz_1.0.0.apk" download>
+              <Button variant="contained">iz_1.0.0</Button>
+            </a>
           </div>
         </div>
       </div>
