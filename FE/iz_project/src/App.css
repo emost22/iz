@@ -26,6 +26,7 @@ header > img {
   width: 120px;
 }
 
+/* 물결모양 css */
 .custom-shape-divider-top-1635830287 {
   position: relative;
   top: 6.2%;
@@ -46,6 +47,7 @@ header > img {
   fill: #5683b6;
 }
 
+/* 다운로드  */
 .App > .Iz_download {
   position: relative;
   top: -1%;
@@ -91,6 +93,7 @@ header > img {
   background: linear-gradient(90deg, rgba(11, 247, 173, 1) 0%, rgba(21, 169, 224, 1) 100%, rgba(0, 255, 231, 1) 100%);
 }
 
+/* 물결모양 css */
 .custom-shape-divider-top-1635908304 {
   position: relative;
   top: -5%;
@@ -112,10 +115,10 @@ header > img {
   fill: #5683b6;
 }
 
+/* 주제선정이유 */
 .App > .pjt_childabuse {
   position: relative;
   top: 0%;
-  /* height: 225vh; */
   width: 95%;
   left: 5%;
 }
@@ -181,6 +184,7 @@ header > img {
   font-size: 1.3rem;
 }
 
+/* 물결모양 css */
 .custom-shape-divider-bottom-1635915666 {
   position: relative;
   bottom: 0;
@@ -203,6 +207,7 @@ header > img {
   fill: #99b5d4;
 }
 
+/* 프로젝트 소개 */
 .App > .whatisIz {
   position: relative;
   width: 100%;
@@ -284,6 +289,7 @@ header > img {
   margin-bottom: 15px;
 }
 
+/* 물결모양 css */
 .custom-shape-divider-top-1635920827 {
   position: relative;
   top: -7%;

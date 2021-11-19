@@ -10,14 +10,17 @@ function App() {
 
   return (
     <div className="App">
+      {/* 헤더 */}
       <header>
         <img src="/images/Iz_logo.png" className="Iz_logo" alt="logo" />
       </header>
+      {/* 물결모양 */}
       <div class="custom-shape-divider-top-1635830287">
         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
           <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
         </svg>
       </div>
+      {/* 아이즈 다운로드 */}
       <div className="Iz_download">
         <div className="how_play">
           <h1>I'z는 어떻게 할 수 있나요?</h1>
@@ -37,6 +40,7 @@ function App() {
             <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
         </svg>
       </div>
+      {/* 주제선정이유 */}
       <div className="pjt_childabuse">
         <h1>왜 아동학대가 주제인가요?</h1>
         <br></br>
@@ -67,6 +71,7 @@ function App() {
           <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
         </svg>
       </div>
+      {/* 프로젝트 소개 */}
       <div className="whatisIz">
         <div className="Iz_report">    
           <h1>I'z는 어떤 게임인가요?</h1>
